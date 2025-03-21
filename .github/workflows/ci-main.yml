@@ -2,9 +2,9 @@ name: CI for main
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test-workflow ]
   pull_request:
-    branches: [ main ]
+    branches: [ test-workflow ]
 
 jobs:
   checking-code-format:
